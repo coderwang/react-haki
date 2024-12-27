@@ -4,7 +4,7 @@ hero:
   description: An amazing react components library with hooks
   actions:
     - text: 开始使用
-      link: /
+      link: /guide
     - text: 组件列表
       link: /
 features:
