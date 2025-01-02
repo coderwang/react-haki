@@ -6,7 +6,7 @@ hero:
     - text: 开始使用
       link: /guide
     - text: 组件列表
-      link: /
+      link: /components/foo
 features:
   - title: 高性能
     emoji: 🚀
