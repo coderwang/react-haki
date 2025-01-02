@@ -1,21 +1,5 @@
 import { useCallback, useState } from 'react';
-
-type LocationData = GeolocationCoordinates & {
-  timestamp: number;
-};
-
-const enum LocationErrorType {
-  PERMISSION_DENIED = 'PERMISSION_DENIED',
-  POSITION_UNAVAILABLE = 'POSITION_UNAVAILABLE',
-  TIMEOUT = 'TIMEOUT',
-  UNKNOWN_ERROR = 'UNKNOWN_ERROR',
-  NOT_SUPPORTED = 'NOT_SUPPORTED',
-}
-
-interface LocationError {
-  type: LocationErrorType;
-  message: string;
-}
+import { LocationData, LocationError, LocationErrorType } from './interface';
 
 const useGeolocation = (options: PositionOptions = {}) => {
   const [location, setLocation] = useState<LocationData | null>(null);
