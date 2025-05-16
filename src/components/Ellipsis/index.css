@@ -1,0 +1,39 @@
+.haki-ellipsis-root {
+  --haki-ellipsis-text-font-size: 14px;
+  --haki-ellipsis-text-line-height: 21px;
+}
+
+.haki-ellipsis-root .haki-ellipsis-text {
+  color: #484848;
+  font-size: var(--haki-ellipsis-text-font-size);
+  line-height: var(--haki-ellipsis-text-line-height);
+}
+
+.haki-ellipsis-root .haki-ellipsis-text .haki-ellipsis-text-expand-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  font-size: var(--haki-ellipsis-text-font-size);
+  line-height: var(--haki-ellipsis-text-line-height);
+  color: #06605a;
+}
+
+.haki-ellipsis-root .haki-ellipsis-text .haki-ellipsis-text-expand-button .haki-ellipsis-text-expand-button-gradient {
+  width: 48px;
+  height: var(--haki-ellipsis-text-line-height);
+  background: linear-gradient(to right, transparent, #fff);
+}
+
+.haki-ellipsis-root .haki-ellipsis-text .haki-ellipsis-text-expand-button .haki-ellipsis-text-expand-button-text {
+  text-decoration: underline;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.haki-ellipsis-root .haki-ellipsis-text .haki-ellipsis-text-collapse-button {
+  text-decoration: underline;
+  color: #06605a;
+  cursor: pointer;
+}
