@@ -1,0 +1,35 @@
+.haki-rich-text-ellipsis-root {
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.haki-rich-text-ellipsis-root-expanded {
+  overflow: visible;
+}
+
+.haki-rich-text-ellipsis-root .haki-rich-text-ellipsis-content {
+  color: #484848;
+}
+
+.haki-rich-text-ellipsis-root .haki-rich-text-ellipsis-expand-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #06605a;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 70%) 20%,
+    #ffffff 100%
+  );
+  cursor: pointer;
+}
