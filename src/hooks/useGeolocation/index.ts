@@ -46,6 +46,7 @@ const useGeolocation = (options: PositionOptions = {}) => {
         altitudeAccuracy,
         heading,
         speed,
+        toJSON,
       } = position.coords;
 
       const locationData = {
@@ -57,6 +58,7 @@ const useGeolocation = (options: PositionOptions = {}) => {
         heading,
         speed,
         timestamp: position.timestamp,
+        toJSON,
       };
 
       setLocation(locationData);
