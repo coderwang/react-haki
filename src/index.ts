@@ -2,6 +2,11 @@
 export { default as Ellipsis } from './components/Ellipsis';
 export { default as Foo } from './components/Foo';
 export { default as RichTextEllipsis } from './components/RichTextEllipsis';
+export { default as SearchBar } from './components/SearchBar';
+export type {
+  HakiSearchBarProps,
+  HakiSearchBarRef,
+} from './components/SearchBar/interface';
 
 /** hooks */
 export { default as useGeolocation } from './hooks/useGeolocation';
