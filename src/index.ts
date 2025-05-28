@@ -7,6 +7,7 @@ export type {
   HakiSearchBarProps,
   HakiSearchBarRef,
 } from './components/SearchBar/interface';
+export { default as VerifyCode } from './components/VerifyCode';
 
 /** hooks */
 export { default as useGeolocation } from './hooks/useGeolocation';
