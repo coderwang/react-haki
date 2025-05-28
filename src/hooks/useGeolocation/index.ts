@@ -46,7 +46,7 @@ const useGeolocation = (options: PositionOptions = {}) => {
         altitudeAccuracy,
         heading,
         speed,
-        toJSON,
+        // toJSON,
       } = position.coords;
 
       const locationData = {
@@ -58,9 +58,10 @@ const useGeolocation = (options: PositionOptions = {}) => {
         heading,
         speed,
         timestamp: position.timestamp,
-        toJSON,
+        // toJSON,
       };
 
+      // @ts-ignore
       setLocation(locationData);
       return locationData; // 返回位置数据，方便外部直接使用
     } catch (err) {

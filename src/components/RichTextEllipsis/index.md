@@ -134,3 +134,5 @@ export default () => {
 | content    | 内容（必填） | `string \| React.ReactNode` | -          |
 | maxHeight  | 最大高度     | `number`                    | `150`      |
 | expandText | 展开文案     | `string \| React.ReactNode` | `查看更多` |
+| className  | 类名         | `string`                    | -          |
+| style      | 根元素样式   | `React.CSSProperties`       | -          |
