@@ -31,7 +31,7 @@ export default function App() {
       )}
     </div>
   );
-}`},react:{type:"NPM",value:"18.3.1"},"react-haki":{type:"NPM",value:"0.0.1"}},entry:"index.tsx"},context:{react:c||(c=e.t(p,2)),"react-haki":x},renderOpts:{compile:function(){var m=I()(t()().mark(function n(){var l,i=arguments;return t()().wrap(function(a){for(;;)switch(a.prev=a.next){case 0:return a.next=2,e.e(335).then(e.bind(e,37335));case 2:return a.abrupt("return",(l=a.sent).default.apply(l,i));case 3:case"end":return a.stop()}},n)}));function d(){return m.apply(this,arguments)}return d}()}}}},39445:function(O,r,e){e.r(r),e.d(r,{texts:function(){return c}});const c=[{value:"\u83B7\u53D6\u5730\u7406\u4F4D\u7F6E\u4FE1\u606F",paraId:0,tocIndex:1},{value:`interface PositionOptions {
+}`},react:{type:"NPM",value:"18.3.1"},"react-haki":{type:"NPM",value:"0.0.2"}},entry:"index.tsx"},context:{react:c||(c=e.t(p,2)),"react-haki":x},renderOpts:{compile:function(){var m=I()(t()().mark(function n(){var l,i=arguments;return t()().wrap(function(a){for(;;)switch(a.prev=a.next){case 0:return a.next=2,e.e(335).then(e.bind(e,37335));case 2:return a.abrupt("return",(l=a.sent).default.apply(l,i));case 3:case"end":return a.stop()}},n)}));function d(){return m.apply(this,arguments)}return d}()}}}},39445:function(O,r,e){e.r(r),e.d(r,{texts:function(){return c}});const c=[{value:"\u83B7\u53D6\u5730\u7406\u4F4D\u7F6E\u4FE1\u606F",paraId:0,tocIndex:1},{value:`interface PositionOptions {
   enableHighAccuracy?: boolean;
   maximumAge?: number;
   timeout?: number;
