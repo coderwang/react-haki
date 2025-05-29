@@ -1,0 +1,50 @@
+.haki-empty-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.haki-empty-root .haki-empty-image {
+  width: 160px;
+  height: 160px;
+}
+
+.haki-empty-root .haki-empty-title {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  line-height: 24px;
+}
+
+.haki-empty-root .haki-empty-description {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666;
+  line-height: 21px;
+}
+
+.haki-empty-root .haki-empty-button {
+  min-width: 80px;
+  height: 32px;
+  margin-top: 16px;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  background-color: #06605a;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.haki-empty-root .haki-empty-button:hover {
+  background-color: #207a74;
+}
+
+.haki-empty-root .haki-empty-button:active {
+  background-color: #004747;
+}
