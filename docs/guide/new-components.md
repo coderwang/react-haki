@@ -8,16 +8,8 @@ order: 1
 
 # 新增组件
 
-- Button
-- Input
-- Select
-- Checkbox
-- Radio
-- Switch
-- Slider
-- Toast
-- Dialog
-- Popup
-- Loading
-- Toast
-
+- Ellipsis
+- Empty
+- RichTextEllipsis
+- SearchBar
+- VerifyCode

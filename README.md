@@ -5,37 +5,25 @@
 
 An amazing react components library with hooks
 
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
-## Development
+## 安装
 
 ```bash
-# install dependencies
-$ pnpm install
+# 通过 npm 安装
+npm i react-haki
 
-# develop library by docs demo
-$ pnpm start
+# 通过 yarn 安装
+yarn add react-haki
 
-# build library source code
-$ pnpm run build
+# 通过 pnpm 安装
+pnpm add react-haki
+```
 
-# build library source code in watch mode
-$ pnpm run build:watch
+## 使用
 
-# build docs
-$ pnpm run docs:build
+```js
+import { Empty } from 'react-haki';
 
-# Locally preview the production build.
-$ pnpm run docs:preview
-
-# check your project for potential problems
-$ pnpm run doctor
+export default () => <Empty />;
 ```
 
 ## LICENSE

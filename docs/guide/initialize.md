@@ -15,10 +15,15 @@ npm i react-haki
 
 # 通过 yarn 安装
 yarn add react-haki
+
+# 通过 pnpm 安装
+pnpm add react-haki
 ```
 
-## 引入
+## 使用
 
-```bash
-import { Button } from 'react-haki';
+```js
+import { Empty } from 'react-haki';
+
+export default () => <Empty />;
 ```

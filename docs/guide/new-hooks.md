@@ -8,10 +8,4 @@ order: 2
 
 # 新增 hooks
 
-- useToggle
-- useLoading
-- useToast
-- useDialog
-- usePopup
-- useLoading
-- useToast
+- useGeolocation
