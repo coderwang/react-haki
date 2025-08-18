@@ -5,7 +5,7 @@ export default () => {
   const [value, setValue] = useState('');
 
   const handleChange = (v: string) => {
-    setValue(v.replace(/\s+/g, ''));
+    setValue(v);
   };
 
   const handleSearch = (v: string) => {
