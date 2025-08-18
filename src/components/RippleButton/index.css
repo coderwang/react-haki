@@ -1,0 +1,171 @@
+.haki-ripple-button-root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #06605a;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  user-select: none;
+  user-select: none;
+  transition: transform 0.15s ease;
+}
+
+.haki-ripple-button-root:hover .haki-ripple-button-default-content {
+  transform: translateX(0);
+}
+
+.haki-ripple-button-root:hover
+  .haki-ripple-button-default-content
+  .haki-ripple-button-arrow-icon {
+  opacity: 1;
+}
+
+.haki-ripple-button-root:hover
+  .haki-ripple-button-default-content
+  .haki-ripple-button-text {
+  color: #06605a;
+}
+
+.haki-ripple-button-root:active {
+  transform: scale(0.98);
+}
+
+.haki-ripple-button-root .haki-ripple-button-default-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transform: translateX(-14px);
+  z-index: 2;
+  transition: transform 0.4s ease;
+}
+
+.haki-ripple-button-root
+  .haki-ripple-button-default-content
+  .haki-ripple-button-arrow-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.haki-ripple-button-root
+  .haki-ripple-button-default-content
+  .haki-ripple-button-text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: color 0.4s ease;
+}
+
+.haki-ripple-button-root .haki-ripple-button-ripple {
+  position: absolute;
+  background-color: #aae425;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.haki-ripple-button-root-loading {
+  cursor: auto;
+  opacity: 0.6;
+  background-color: #aae425;
+}
+
+.haki-ripple-button-root-loading:active {
+  transform: none;
+}
+
+.haki-ripple-button-root-loading .haki-ripple-button-loading-icon {
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+
+.haki-ripple-button-root-success {
+  background-color: #aae425;
+  transition: background-color 0.4s ease, transform 0.15s ease;
+}
+
+.haki-ripple-button-root-success:hover {
+  background-color: #9ad11a;
+}
+
+.haki-ripple-button-root-success:hover .haki-ripple-button-success-content {
+  transform: translateX(0);
+}
+
+.haki-ripple-button-root-success:hover
+  .haki-ripple-button-success-content
+  .haki-ripple-button-success-arrow-icon {
+  opacity: 1;
+}
+
+.haki-ripple-button-root-success .haki-ripple-button-success-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transform: translateX(-14px);
+  transition: transform 0.4s ease;
+  z-index: 2;
+}
+
+.haki-ripple-button-root-success
+  .haki-ripple-button-success-content
+  .haki-ripple-button-success-arrow-icon {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.haki-ripple-button-root-success
+  .haki-ripple-button-success-content
+  .haki-ripple-button-success-text {
+  color: #06605a;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.haki-ripple-button-root-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.haki-ripple-button-root-disabled:hover .haki-ripple-button-default-content {
+  transform: translateX(-14px);
+}
+
+.haki-ripple-button-root-disabled:hover
+  .haki-ripple-button-default-content
+  .haki-ripple-button-arrow-icon {
+  opacity: 0;
+}
+
+.haki-ripple-button-root-disabled:hover
+  .haki-ripple-button-default-content
+  .haki-ripple-button-text {
+  color: #fff;
+}
+
+.haki-ripple-button-root-disabled:hover .haki-ripple-button-success-content {
+  transform: translateX(-14px);
+}
+
+.haki-ripple-button-root-disabled:hover
+  .haki-ripple-button-success-content
+  .haki-ripple-button-success-arrow-icon {
+  opacity: 0;
+}
+
+.haki-ripple-button-root-disabled:active {
+  transform: none;
+}
+
+.haki-ripple-button-root-disabled.haki-ripple-button-root-success:hover {
+  background-color: #aae425;
+}
