@@ -1,0 +1,57 @@
+.haki-digit-infinite-scroll-root {
+  position: relative;
+  overflow: hidden;
+
+  --haki-digit-infinite-scroll-height: 67px;
+  --haki-digit-infinite-scroll-font-size: 56px;
+  --haki-digit-infinite-scroll-color: #e9172f;
+
+  height: var(--haki-digit-infinite-scroll-height);
+}
+
+.haki-digit-infinite-scroll-track {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.haki-digit-infinite-scroll-track-up {
+  animation-name: haki-digit-infinite-scroll-track-up;
+}
+
+.haki-digit-infinite-scroll-track-down {
+  animation-name: haki-digit-infinite-scroll-track-down;
+}
+
+.haki-digit-infinite-scroll-digit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--haki-digit-infinite-scroll-font-size);
+  font-weight: 700;
+  line-height: var(--haki-digit-infinite-scroll-height);
+  color: var(--haki-digit-infinite-scroll-color);
+}
+
+@keyframes haki-digit-infinite-scroll-track-up {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes haki-digit-infinite-scroll-track-down {
+  from {
+    transform: translateY(-50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
