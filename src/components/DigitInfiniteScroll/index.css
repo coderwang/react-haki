@@ -4,6 +4,7 @@
 
   --haki-digit-infinite-scroll-height: 67px;
   --haki-digit-infinite-scroll-font-size: 56px;
+  --haki-digit-infinite-scroll-font-weight: 700;
   --haki-digit-infinite-scroll-color: #e9172f;
 
   height: var(--haki-digit-infinite-scroll-height);
@@ -31,7 +32,7 @@
   align-items: center;
   justify-content: center;
   font-size: var(--haki-digit-infinite-scroll-font-size);
-  font-weight: 700;
+  font-weight: var(--haki-digit-infinite-scroll-font-weight);
   line-height: var(--haki-digit-infinite-scroll-height);
   color: var(--haki-digit-infinite-scroll-color);
 }

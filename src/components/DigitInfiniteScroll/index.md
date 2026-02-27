@@ -57,8 +57,9 @@ export default () => {
 
 ### CSS 变量
 
-| 属性                                   | 说明     | 默认值    |
-| -------------------------------------- | -------- | --------- |
-| --haki-digit-infinite-scroll-height    | 高度     | `67px`    |
-| --haki-digit-infinite-scroll-font-size | 字体大小 | `56px`    |
-| --haki-digit-infinite-scroll-color     | 颜色     | `#e9172f` |
+| 属性                                     | 说明     | 默认值    |
+| ---------------------------------------- | -------- | --------- |
+| --haki-digit-infinite-scroll-height      | 高度     | `67px`    |
+| --haki-digit-infinite-scroll-font-size   | 字体大小 | `56px`    |
+| --haki-digit-infinite-scroll-font-weight | 字体粗细 | `700`     |
+| --haki-digit-infinite-scroll-color       | 颜色     | `#e9172f` |

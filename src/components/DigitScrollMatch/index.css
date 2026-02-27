@@ -1,0 +1,32 @@
+.haki-digit-scroll-match-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  --haki-digit-scroll-match-height: 67px;
+  --haki-digit-scroll-match-font-size: 56px;
+  --haki-digit-scroll-match-font-weight: 700;
+  --haki-digit-scroll-match-color: #e9172f;
+}
+
+.haki-digit-slot-root {
+  position: relative;
+  overflow: hidden;
+  height: var(--haki-digit-scroll-match-height);
+}
+
+.haki-digit-slot-track {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.haki-digit-slot-digit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--haki-digit-scroll-match-font-size);
+  font-weight: var(--haki-digit-scroll-match-font-weight);
+  line-height: var(--haki-digit-scroll-match-height);
+  color: var(--haki-digit-scroll-match-color);
+}
