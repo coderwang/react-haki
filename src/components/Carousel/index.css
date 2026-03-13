@@ -1,0 +1,9 @@
+.haki-carousel-root {
+  overflow: hidden;
+  user-select: none;
+}
+
+.haki-carousel-root .haki-carousel-track {
+  display: flex;
+  align-items: center;
+}

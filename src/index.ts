@@ -1,4 +1,9 @@
 /** 组件 */
+export { default as Carousel } from './components/Carousel';
+export type {
+  CarouselProps,
+  CarouselRef,
+} from './components/Carousel/interface';
 export { default as DigitInfiniteScroll } from './components/DigitInfiniteScroll';
 export { default as DigitScrollMatch } from './components/DigitScrollMatch';
 export { default as Ellipsis } from './components/Ellipsis';
