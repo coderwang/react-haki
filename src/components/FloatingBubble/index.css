@@ -1,0 +1,9 @@
+.haki-floating-bubble-root {
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  user-select: none;
+  touch-action: none;
+  cursor: pointer;
+  z-index: 10000;
+}
