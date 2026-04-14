@@ -4,7 +4,7 @@ nav:
   order: 0
 group:
   title: 业务组件
-  order: 3
+  order: 15
 ---
 
 # RippleButton 波纹按钮

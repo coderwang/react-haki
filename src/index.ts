@@ -16,6 +16,7 @@ export type {
   HakiSearchBarProps,
   HakiSearchBarRef,
 } from './components/SearchBar/interface';
+export { default as TabList } from './components/TabList';
 export { default as VerifyCode } from './components/VerifyCode';
 
 /** hooks */

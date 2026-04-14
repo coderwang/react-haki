@@ -4,7 +4,7 @@ nav:
   order: 0
 group:
   title: 数据展示
-  order: 2
+  order: 10
 ---
 
 # Empty 空态

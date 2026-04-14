@@ -4,7 +4,7 @@ nav:
   order: 0
 group:
   title: 表单控件
-  order: 1
+  order: 5
 ---
 
 # SearchBar 搜索框

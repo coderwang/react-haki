@@ -4,7 +4,7 @@ nav:
   order: 0
 group:
   title: 动效组件
-  order: 4
+  order: 20
 ---
 
 # DigitInfiniteScroll 数字无限滚动

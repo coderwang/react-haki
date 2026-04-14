@@ -1,0 +1,146 @@
+.haki-tab-list-root {
+  position: relative;
+}
+
+.haki-tab-list-left-arrow {
+  position: absolute;
+  left: -1px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.haki-tab-list-left-arrow-item {
+  background-color: #fff;
+}
+
+.haki-tab-list-left-arrow-item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.haki-tab-list-left-arrow-item-button:hover {
+  background-color: #f5f5f5;
+}
+
+.haki-tab-list-left-arrow-item-button-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.haki-tab-list-left-arrow-item-background {
+  height: 32px;
+  width: 32px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0%) 100%);
+}
+
+.haki-tab-list-right-arrow {
+  position: absolute;
+  right: -1px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.haki-tab-list-right-arrow-item {
+  background-color: #fff;
+}
+
+.haki-tab-list-right-arrow-item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.haki-tab-list-right-arrow-item-button:hover {
+  background-color: #f5f5f5;
+}
+
+.haki-tab-list-right-arrow-item-button-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.haki-tab-list-right-arrow-item-background {
+  height: 32px;
+  width: 32px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0%) 100%);
+}
+
+.haki-tab-list-stack {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.haki-tab-list-stack::-webkit-scrollbar {
+  display: none;
+}
+
+.haki-tab-list-stack-item {
+  flex-shrink: 0;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid #f5f5f5;
+  border-radius: 100px;
+  background-color: #f5f5f5;
+  color: #444;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.haki-tab-list-stack-item:hover {
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
+}
+
+.haki-tab-list-stack-item-active {
+  background-color: #effad6;
+  border-color: #c0eb5e;
+}
+
+.haki-tab-list-stack-item-active:hover {
+  background-color: #effad6;
+  border-color: #c0eb5e;
+}
+
+.haki-tab-list-stack-item-add {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.haki-tab-list-stack-item-add:hover {
+  background-color: #ebebeb;
+}
+
+.haki-tab-list-stack-item-add-icon {
+  width: 16px;
+  height: 16px;
+}
